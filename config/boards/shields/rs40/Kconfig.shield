@@ -1,0 +1,2 @@
+config SHIELD_RS40
+    def_bool $(shields_list_contains,rs40)

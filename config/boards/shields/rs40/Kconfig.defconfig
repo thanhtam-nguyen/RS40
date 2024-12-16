@@ -1,0 +1,4 @@
+if SHIELD_RS40
+config ZMK_KEYBOARD_NAME
+    default "Rs40 ble"
+endif
