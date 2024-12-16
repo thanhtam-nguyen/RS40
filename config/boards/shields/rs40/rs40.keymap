@@ -35,7 +35,7 @@ debounce-release-ms = <30>;
         };
         lower_layer {
             bindings = <
-                &kp N1       &kp N2        &kp N3        &kp N4         &kp N5         &kp N6          &kp Ny     &kp N8     &kp N9      &kp N0    &kp MINUS     &kp EQUAL
+                &kp N1       &kp N2        &kp N3        &kp N4         &kp N5         &kp N6          &kp N7     &kp N8     &kp N9      &kp N0    &kp MINUS     &kp EQUAL
                 &out OUT_USB  &rgb_ug  RGB_TOG        &kp S         &kp D         &kp F         &kp G          &kp H     &kp J     &kp K    &kp L    &bootloader
                 &out OUT_BLE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR     &kp N     &kp M     &kp COMMA  &kp DOT  &mo 1
                 &bootloader     &kp LWIN     &kp LALT      &studio_unlock              &mo 1          &kp FSLH  &kp SEMI  &ext_power EP_TOG
