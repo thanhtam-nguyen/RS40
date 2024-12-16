@@ -29,16 +29,16 @@ debounce-release-ms = <30>;
             bindings = <
                 &kp ESC    &kp Q     &kp W     &kp E      &kp R  &kp T     &kp Y     &kp U     &kp I      &kp O    &kp P     &kp BSPC
                 &kp TAB    &kp A     &kp S     &kp D      &kp F  &kp G     &kp H     &kp J     &kp K      &kp L    &kp RET
-                &kp LSHFT  &kp Z     &kp X     &kp C      &kp V  &kp B     &kp N     &kp M     &kp COMMA  &kp DOT  &kp RSHFT
-                &kp LCTRL  &kp LWIN  &kp LALT  &kp SPACE  &mo 1  &kp FSLH  &kp SEMI  &kp RIGHT
+                &kp LSHFT  &kp Z     &kp X     &kp C      &kp V  &kp B     &kp N     &kp M     &kp COMMA  &kp UP  &mo 1
+                &kp LCTRL  &kp LALT  &kp LWIN  &kp SPACE  &kp SPACE  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
         lower_layer {
             bindings = <
-                &kp ESC       &kp Q        &kp W         &kp E         &kp R         &kp T          &kp Y     &kp U     &kp I      &kp O    &kp P     &kp BSPC
+                &kp N1       &kp N2        &kp N3        &kp N4         &kp N5         &kp N6          &kp Ny     &kp N8     &kp N9      &kp N0    &kp MINUS     &kp EQUAL
                 &out OUT_USB  &rgb_ug  RGB_TOG        &kp S         &kp D         &kp F         &kp G          &kp H     &kp J     &kp K    &kp L    &bootloader
-                &out OUT_BLE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR     &kp N     &kp M     &kp COMMA  &kp DOT  &ext_power EP_TOG
-                &kp LCTRL     &kp LWIN     &kp LALT      &studio_unlock              &mo 1          &kp FSLH  &kp SEMI  &kp RIGHT
+                &out OUT_BLE  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR     &kp N     &kp M     &kp COMMA  &kp DOT  &mo 1
+                &bootloader     &kp LWIN     &kp LALT      &studio_unlock              &mo 1          &kp FSLH  &kp SEMI  &ext_power EP_TOG
             >;
         };
     };
